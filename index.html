@@ -9,10 +9,13 @@ permalink: "/"
     {% if post.category=="blog" %}
       <article class="post">
 
+          
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </h1> 
         <h3><i>{{post.author.name}}, {{ post.date | date: '%B %d, %Y' }} </i></h3>
         
 
+        {% if post.image %}{% include featured-image.html image=post.image alt="Image Unavailable" %}{% endif %}
+        
         <div class="entry">
           {{ post.excerpt }} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"> Full post...</a>
         </div>
