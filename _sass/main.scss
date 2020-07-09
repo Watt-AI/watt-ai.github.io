@@ -8,6 +8,10 @@
   width: 65%;
 }
 
+.row {
+  vertical-align: middle;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
