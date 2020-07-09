@@ -14,7 +14,7 @@ permalink: "/"
         <h3><i>{{post.author.name}}, {{ post.date | date: '%B %d, %Y' }} </i></h3>
         
         <div class="entry">
-          {{ post.tagline }} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"> Full post...</a>
+          {{ post.tagline }} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"> Read post...</a>
         </div>
         {% if post.image %}{% include featured-image.html image=post.image alt="Image Unavailable" %}{% endif %}
         <br>
