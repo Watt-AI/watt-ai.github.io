@@ -2,6 +2,7 @@
 layout: post
 category: blog
 title: Anti-Bias Resources
+tagline: This post includes resources related to social bias in machine learning, artificial intelligence and data science.
 permalink: /blog/anti_bias
 excerpt_separator: <!--more-->
 author:
