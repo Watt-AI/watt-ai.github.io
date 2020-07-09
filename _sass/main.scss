@@ -1,6 +1,11 @@
-.column {
+.title-column {
   float: left;
-  width: 50%;
+  width: 35%;
+}
+
+.img-column{
+  float: right;
+  width: 65%;
 }
 
 /* Clear floats after the columns */
