@@ -66,29 +66,26 @@ and see what the AI comes up with! The results are usually amusing, sometimes am
 <body>
   <section id="main" class="section">
     <div class="container">
-      <h1 class= "description" style = "align-text:center; padding-bottom: 10px">
-        Generate custom text from an AI using GPT-2 (using the 117M default model)
-      </h1>
       <div class="columns is-variable is-5">
         <div class="column is-narrow" style="width: 250px;">
           <form id="gen-form">
 
             <div class="field">
-              <label class="label">Model Subject</label>
+              <label class="label">Training Text Source</label>
               <div class="control">
-                <select id = "model_sel" name = "model_sub" size = "3">
+                <select id = "model_sel" name = "model_sub" size = "1" class = "input">
                   <!-- FILLED IN BY AJAX CALL WHEN DOCUMENT READY -->
                 </select>
               </div>
-              <p class="help">Choose from the models above, finetuned on different datasets</p>
+              <p class="help">Choose from the models above, finetuned on different text corpuses <em> (Click field to see options)</em></p>
             </div>
-            
+
             <div class="field">
               <label class="label">Text Prompt</label>
               <div class="control">
                 <textarea id="prefix" class="textarea" type="text" placeholder="Donald Trump" rows="2"></textarea>
               </div>
-              <p class="help">Starts the generated text with the specified text. <em>(Optional: max 500 characters)</em></p>
+              <p class="help">Seeds the generated text with the inputted sample. <em>(Optional: max 500 characters)</em></p>
             </div>
             
             <div class="field">
@@ -127,7 +124,7 @@ and see what the AI comes up with! The results are usually amusing, sometimes am
           </form>
           <div id="extra-buttons" class="buttons">
             <span class="control">
-              <button id="save-image" class="button is-success">
+              <button id="save-image" class="button is-success" style = "margin-top: 10px">
                 <span class="icon">
                   <i class="fas fa-md fa-save"></i>
                 </span><span>Save Image</span></button>
