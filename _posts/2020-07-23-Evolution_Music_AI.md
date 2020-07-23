@@ -73,7 +73,7 @@ Illiac Suite for String Quartet. <br/><br/>
 <p align="center"> 
 <i>Lejaren Hiller and Leonard Isaacson. Photo from Illinois Distributed
 Museum</i>
-<p>
+</p>
 <br/><br/> Through the use of mathematical models and algorithms,
 Lejaren Hiller (an American composer) and Leonard Isaacson (an American
 composer and mathematician) made Illiac Suite, the first original piece
@@ -84,12 +84,14 @@ these random features were limited to elements that would be musically
 ‘legal’ as defined by traditional musical theory rules, statistical
 probabilities (like Markov Chains), and the imagination of the two
 composers. <br/><br/>
+<p align="center"> 
 
 [![]({{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/illiac_thumbnail.jpg)](http://www.youtube.com/watch?v=n0njBFLQSk8)
+
 <br/><br/>
 <i>The First Movement of Illiac Suite. Click the image to hear the
 sample.</i>
-
+</p>
 <br/><br/>
 
 Another innovator in this field was Iannis Xenakis, a composer and
@@ -127,11 +129,14 @@ an early example of AI working as a supplementary analysis tool rather
 than just a compositional tool. The way Xenakis created his melodies and
 orchestration for different instruments drew inspiration from the sounds
 spaces modeled by the stochastic process.
-
+<p align="center"> 
 [![]({{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/xenakis_thumbnail.jpg)](http://www.youtube.com/watch?v=nvH2KYYJg-o)
 
+
 <i>Xenakis’s experimental piece, Pithoprakta with a graphical score.
-Click the image to listen.</i> <br/><br/> This duality of AI as
+Click the image to listen.</i> 
+</p>
+<br/><br/> This duality of AI as
 autonomous creators and as supplementary guides continues today as we
 can see intelligent sound systems that are specialized to generate
 original pieces like the Illiac Suite or to break down the science of
@@ -203,11 +208,11 @@ segments are categorized and reconstructed in a logical, musical order
 using augmented transition networks until new music output is produced.
 This type of ‘regenerative’ construction of music is reminiscent of many
 of the current neural networks that compose music today.
-
-[[]({{site.url}}/assets/img/2020-07-23-Evolution\_Music\_AI/cope\_thumbnail.jpg](http://www.youtube.com/watch?v=2kuY3BrmTfQ)
+<p align='center'>
+[![]({{site.url}}/assets/img/2020-07-23-Evolution\_Music\_AI/cope\_thumbnail.jpg](http://www.youtube.com/watch?v=2kuY3BrmTfQ)
 <br/><br/> <i>Emmy Vivaldi, A composition created by Cope’s Experiments
 in Music Intelligence program. Click the image to listen.</i>
-
+</p>
 <p align="center">  
 <img width="200" height="300" src="{{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/rowe_cover.jpg?raw=true" alt="Image">
 </p>
@@ -216,7 +221,7 @@ in Music Intelligence program. Click the image to listen.</i>
 <i>Robert Rowe’s book explores technology in the process of music
 analysis, composition, and performance.</i>
 </p>
-<br/><br/>
+<br/>
 
 Other developments in this period continued to explore the boundaries of
 computational creativity. For example, Robert Rowe created a system
@@ -227,10 +232,10 @@ reinforcement learning leading to the generation of over 10,000 new
 musical choruses. Reinforcement learning involves training a neural
 network to achieve a goal by rewarding/punishing the model based on the
 decisions it makes reach a specified goal.
-<br/>
+<br/><br/>
 For more information about Reinforcement Learning:
 <https://deepsense.ai/what-is-reinforcement-learning-the-complete-guide/>
-<br/>
+<br/><br/>
 For more information about Imagination Engines Neural Network:
 <http://imagination-engines.com/iei_ie.php>
 
@@ -272,12 +277,13 @@ rules to see if it follows established rules by music theory or the
 genre. Eventually, this evolution allows a random input fragment to
 develop into hundreds of compositions that follow real music criteria
 after only a couple of minutes.
+<p align='center'>
 
 [![]({{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/iamus_thumbnail.jpg)](http://www.youtube.com/watch?v=PzrcoqpnZqA)
 
 <i>One of Iamus’s original compositions performed by the Málaga
 Philharmonic Orchestra. Click the image to listen.</i>
-
+</p>
 ### Music Analysis with Magenta
 
 Magenta is a project started by Google Brain which uses machine learning
@@ -315,12 +321,13 @@ structures to the process to produce a long-term structure.
 From this framework, MusicVAE is able to construct multiple applications
 for making interpolations, drum patterns, and entirely new melodic loops
 based on an input of your music.
+<p align='center'>
 
 [![]({{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/musicvae_thumbnail.jpg)](http://www.youtube.com/watch?v=G5JT16flZwM)
 
 <i>Magneta creating interpolations based on two input melodies. Click
 the image to listen.</i>
-
+</p>
 ### Sound Synthesis with NSynth
 
 While most early research focuses on the act of composition, current
@@ -330,12 +337,13 @@ networks to make sounds at the level of individual samples rather than
 from oscillators/wavetables like traditional synthesizers. This approach
 allows for more artistic control over timbre (the distinct character of
 a sound) to further assist in the creative process.
+<p align='center'>
 
 [![]({{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/nsynth_thumbnail.jpg)](http://www.youtube.com/watch?v=0fjopD87pyw)
 
 <i>Hector Plimmer experimenting with the NSynth Super instrument. Click
 the image to listen.</i>
-
+</p>
 NSynth uses what is known as a Wave-Net style autoencoder on a dataset
 of 300,000 musical notes from roughly 1,000 instruments. This unique
 dataset allows for the factorization of a musical sound into notes and
@@ -440,9 +448,9 @@ clearly see the progress from early ideas of recombinancy or algorithmic
 composition.
 
 <div
-style="font-size: 20px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+style="font-size: 20px; color: blue;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
 
-<a href="https://soundcloud.com/openai_audio/jukebox-471477285" title="Pop, in the style of Bruno Mars - Jukebox" target="_blank" style="color: #cccccc; text-decoration: none;">Pop,
+<a href="https://soundcloud.com/openai_audio/jukebox-471477285" title="Pop, in the style of Bruno Mars - Jukebox" target="_blank" style="color: blue; text-decoration: none;">Pop,
 in the style of Bruno Mars - Jukebox</a>
 
 </div>
@@ -451,9 +459,9 @@ in the style of Bruno Mars - Jukebox</a>
 this Bruno Mars song in its own way.*
 
 <div
-style="font-size: 20px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+style="font-size: 20px; color: blue;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
 
-<a href="https://soundcloud.com/openai_audio/rock-in-the-style-of-elvis-4" title="Rock, in the style of Elvis Presley - Jukebox" target="_blank" style="color: #cccccc; text-decoration: none;">Rock,
+<a href="https://soundcloud.com/openai_audio/rock-in-the-style-of-elvis-4" title="Rock, in the style of Elvis Presley - Jukebox" target="_blank" style="color: blue; text-decoration: none;">Rock,
 in the style of Elvis Presley - Jukebox</a>
 
 </div>
@@ -462,9 +470,9 @@ in the style of Elvis Presley - Jukebox</a>
 language model.*
 
 <div
-style="font-size: 20px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+style="font-size: 20px; color: blue;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
 
-<a href="https://soundcloud.com/openai_audio/jukebox-558229801" title="Country, in the style of Alan Jackson - Jukebox" target="_blank" style="color: #cccccc; text-decoration: none;">Country,
+<a href="https://soundcloud.com/openai_audio/jukebox-558229801" title="Country, in the style of Alan Jackson - Jukebox" target="_blank" style="color: blue; text-decoration: none;">Country,
 in the style of Alan Jackson - Jukebox</a>
 
 </div>
@@ -485,9 +493,9 @@ AI-assisted music in mainstream settings in the near future.
 
 <p align="center">  
 <img width="650" height="400" src="{{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/quartet.png?raw=true" alt="Image">
-</p>
-*Image by Trevor Paglen*
 
+*Image by Trevor Paglen*
+</p>
 As AI technology has become more refined from the pioneering ideas of
 researchers like Hiller/Isaacson and Cope, its prevalence in the music
 industry has exponentially grown. Commercial applications are assisting
