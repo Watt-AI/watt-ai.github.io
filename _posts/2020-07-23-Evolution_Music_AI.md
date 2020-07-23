@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-title: Evolution of Music AI
+title: The Evolution of Music and AI Technology
 tagline: This post details the growth of AI music technology through three main phases with technical analyses of multiple AI experiments/products.
 permalink: /blog/music_ai_evolution
 excerpt_separator: <!--more-->
@@ -10,8 +10,6 @@ author:
   email: "dranwal@clemson.edu"
 image: 2020-07-23-Evolution_Music_AI/robot_piano.png
 ---
-The Evolution of Music and AI Technology
-========================================
 
 Emergent technologies have shaped the world of music since its
 conception. From the advent of recordings, to an electronic revolution
@@ -20,8 +18,8 @@ technology in the artistic process is continually growing. Right now,
 many current breakthroughs that are pushing boundaries in the music
 world have been spurred by decades of research and discovery in AI
 technology. In this post, we will track the evolution of AI music
-methods to see how this technology is making new sounds, melodies,
-compositions, and even recreating the human voice.
+methods to see how this technology can create new sounds, write melodies,
+develop entire compositions, and even recreate human singing.
 
 <p align="center">  
 <img width="750" height="400" src="{{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/robot_piano.png?raw=true" alt="Image">
@@ -209,7 +207,7 @@ using augmented transition networks until new music output is produced.
 This type of ‘regenerative’ construction of music is reminiscent of many
 of the current neural networks that compose music today.
 <p align='center'>
-[![]({{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/cope_thumbnail.jpg](http://www.youtube.com/watch?v=2kuY3BrmTfQ)
+[![]({{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/cope_thumbnail.jpg)](http://www.youtube.com/watch?v=2kuY3BrmTfQ)
   
 <br/><br/> <i>Emmy Vivaldi, A composition created by Cope’s Experiments
 in Music Intelligence program. Click the image to listen.</i>
