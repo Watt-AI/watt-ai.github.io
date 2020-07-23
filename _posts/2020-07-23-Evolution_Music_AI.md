@@ -131,7 +131,7 @@ orchestration for different instruments drew inspiration from the sounds
 spaces modeled by the stochastic process.
 <p align="center"> 
 [![]({{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/xenakis_thumbnail.jpg)](http://www.youtube.com/watch?v=nvH2KYYJg-o)
-
+<br/><br/>
 
 <i>Xenakis’s experimental piece, Pithoprakta with a graphical score.
 Click the image to listen.</i> 
@@ -209,7 +209,8 @@ using augmented transition networks until new music output is produced.
 This type of ‘regenerative’ construction of music is reminiscent of many
 of the current neural networks that compose music today.
 <p align='center'>
-[![]({{site.url}}/assets/img/2020-07-23-Evolution\_Music\_AI/cope\_thumbnail.jpg](http://www.youtube.com/watch?v=2kuY3BrmTfQ)
+[![]({{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/cope_thumbnail.jpg](http://www.youtube.com/watch?v=2kuY3BrmTfQ)
+  
 <br/><br/> <i>Emmy Vivaldi, A composition created by Cope’s Experiments
 in Music Intelligence program. Click the image to listen.</i>
 </p>
@@ -280,7 +281,7 @@ after only a couple of minutes.
 <p align='center'>
 
 [![]({{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/iamus_thumbnail.jpg)](http://www.youtube.com/watch?v=PzrcoqpnZqA)
-
+<br/><br/>
 <i>One of Iamus’s original compositions performed by the Málaga
 Philharmonic Orchestra. Click the image to listen.</i>
 </p>
@@ -324,7 +325,7 @@ based on an input of your music.
 <p align='center'>
 
 [![]({{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/musicvae_thumbnail.jpg)](http://www.youtube.com/watch?v=G5JT16flZwM)
-
+<br/><br/>
 <i>Magneta creating interpolations based on two input melodies. Click
 the image to listen.</i>
 </p>
@@ -340,7 +341,7 @@ a sound) to further assist in the creative process.
 <p align='center'>
 
 [![]({{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/nsynth_thumbnail.jpg)](http://www.youtube.com/watch?v=0fjopD87pyw)
-
+<br/><br/>
 <i>Hector Plimmer experimenting with the NSynth Super instrument. Click
 the image to listen.</i>
 </p>
@@ -493,7 +494,7 @@ AI-assisted music in mainstream settings in the near future.
 
 <p align="center">  
 <img width="650" height="400" src="{{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/quartet.png?raw=true" alt="Image">
-
+<br/><br/>
 *Image by Trevor Paglen*
 </p>
 As AI technology has become more refined from the pioneering ideas of
