@@ -24,7 +24,7 @@ methods to see how this technology is making new sounds, melodies,
 compositions, and even recreating the human voice.
 
 <p align="center">  
-<img width="750" height="400"src="{{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/robot_piano.png?raw=true" alt="Image">
+<img width="750" height="400" src="{{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/robot_piano.png?raw=true" alt="Image">
 </p>
 
 <p align="center"> 
@@ -86,7 +86,7 @@ probabilities (like Markov Chains), and the imagination of the two
 composers. <br/><br/>
 
 [![]({{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/illiac_thumbnail.jpg)](http://www.youtube.com/watch?v=n0njBFLQSk8)
-
+<br/><br/>
 <i>The First Movement of Illiac Suite. Click the image to hear the
 sample.</i>
 
@@ -100,7 +100,7 @@ statistically. In the early 60s, he utilized computers and the FORTRAN
 language to interweave multiple probability functions to determine
 overall structure and other parameters (like pitch and dynamics) of a
 composition.
-
+<br/><br/>
 <p align="center">  
 <img src="{{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/xenakis.jpg?raw=true" alt="Image">
 </p>
@@ -116,7 +116,7 @@ of pitch and velocity of certain notes).
 <img src="{{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/pithoprakta.png?raw=true" alt="Image">
 </p>
 
-*A mathematical representation of *Pithoprakta*, an early work by
+*A mathematical representation of Pithoprakta, an early work by
 Xenakis. He models different sound spaces though these Glissandi (the
 glide from one pitch to another) as graphs of straight lines (time on
 the horizontal axis, pitch on the vertical), where different slopes
@@ -193,7 +193,7 @@ ability.
 <i>Cope’s Six-Step Process for EMI. Image by David Cope from Experiments
 in Music Intelligence.</i>
 </p>
-<br/><br/>
+<br/>
 
 Cope’s work was the foundation for many current AI models on the market
 right now. First music and its attributes are encoded into databases,
@@ -215,7 +215,7 @@ in Music Intelligence program. Click the image to listen.</i>
 <p align="center"> 
 <i>Robert Rowe’s book explores technology in the process of music
 analysis, composition, and performance.</i>
-<p>
+</p>
 <br/><br/>
 
 Other developments in this period continued to explore the boundaries of
@@ -227,10 +227,10 @@ reinforcement learning leading to the generation of over 10,000 new
 musical choruses. Reinforcement learning involves training a neural
 network to achieve a goal by rewarding/punishing the model based on the
 decisions it makes reach a specified goal.
-
+<br/>
 For more information about Reinforcement Learning:
 <https://deepsense.ai/what-is-reinforcement-learning-the-complete-guide/>
-
+<br/>
 For more information about Imagination Engines Neural Network:
 <http://imagination-engines.com/iei_ie.php>
 
@@ -388,7 +388,7 @@ raw audio, they use specialized encoders and neural networks.
 <p align ="center">
 <i>Image by OpenAI<i>
 </p>
-<br/><br/>
+<br/>
 
 Jukebox compresses their audio into a latent space using something known
 as VQ-VAE encoders. The overall system starts with using convolutional
@@ -440,7 +440,7 @@ clearly see the progress from early ideas of recombinancy or algorithmic
 composition.
 
 <div
-style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+style="font-size: 20px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
 
 <a href="https://soundcloud.com/openai_audio/jukebox-471477285" title="Pop, in the style of Bruno Mars - Jukebox" target="_blank" style="color: #cccccc; text-decoration: none;">Pop,
 in the style of Bruno Mars - Jukebox</a>
@@ -451,7 +451,7 @@ in the style of Bruno Mars - Jukebox</a>
 this Bruno Mars song in its own way.*
 
 <div
-style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+style="font-size: 20px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
 
 <a href="https://soundcloud.com/openai_audio/rock-in-the-style-of-elvis-4" title="Rock, in the style of Elvis Presley - Jukebox" target="_blank" style="color: #cccccc; text-decoration: none;">Rock,
 in the style of Elvis Presley - Jukebox</a>
@@ -462,7 +462,7 @@ in the style of Elvis Presley - Jukebox</a>
 language model.*
 
 <div
-style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+style="font-size: 20px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
 
 <a href="https://soundcloud.com/openai_audio/jukebox-558229801" title="Country, in the style of Alan Jackson - Jukebox" target="_blank" style="color: #cccccc; text-decoration: none;">Country,
 in the style of Alan Jackson - Jukebox</a>
@@ -484,7 +484,7 @@ artists). As these algorithms and neural networks grow, we will see more
 AI-assisted music in mainstream settings in the near future.
 
 <p align="center">  
-<img width="650" height="250" src="{{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/quartet.png?raw=true" alt="Image">
+<img width="650" height="400" src="{{site.url}}/assets/img/2020-07-23-Evolution_Music_AI/quartet.png?raw=true" alt="Image">
 </p>
 *Image by Trevor Paglen*
 
