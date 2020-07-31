@@ -1,6 +1,13 @@
 ---
 layout: post
+category: blog
 title: Testing for Algorithmic Bias
+tagline: This post describes examples of algorithmic discrimination and runs through a process of testing for it. 
+permalink: /blog/Testing_for_Algorithmic_Bias
+author: 
+  name: Cierra Oliveira
+  email: "colivei@clemson.edu"
+image: 2020-07-29-Algorithmic-Bias/algorithmic-bias.jpg
 ---
 
 It is a misconception that machine learning yields completely objective decision making. Rather, artificial intelligence only operates objectively on the material humans teach it. Troubling outcomes begin to arise when the input data used to train these models contain bias. 
@@ -37,20 +44,29 @@ Some research has suggested that gender plays a role in political communicative 
 Our entire training set contained 3600 tweets by political elites, 795 of which were from female politicians. I tested the groups for Equalized Odds, Predictive Parity, Overall Accuracy Equality on five different policy issues: 
 
 **Equalized Odds**  
-![True Positive Rate]({{ github.com/Cierraoliveira/jekyll-now }}/images/TruePositiveRate.JPG "True Positive Rate")  
-![False Positive Rate]({{ github.com/Cierraoliveira/jekyll-now }}/images/FalsePositiveRate.JPG "False Positive Rate")
+<p align="center">  
+<img width="750" height="400" src="{{site.url}}/assets/img/2020-07-29-Algorithmic-Bias/TruePositiveRate.JPG?raw=true" alt="Image">
+</p>  
+<p align="center">  
+<img width="750" height="400" src="{{site.url}}/assets/img/2020-07-29-Algorithmic-Bias/FalsePositiveRate.JPG?raw=true" alt="Image">
+</p> 
 
 **Predictive Parity**  
-![Precision]({{ github.com/Cierraoliveira/jekyll-now }}/images/Precision.JPG "Precision")
+<p align="center">  
+<img width="750" height="400" src="{{site.url}}/assets/img/2020-07-29-Algorithmic-Bias/Precision.JPG?raw=true" alt="Image">
+</p> 
 
 **Overall Accuracy Equality with F1 Scores**  
-![F1 Score]({{ github.com/Cierraoliveira/jekyll-now }}/images/F1Score.JPG "F1Score")
+<p align="center">  
+<img width="750" height="400" src="{{site.url}}/assets/img/2020-07-29-Algorithmic-Bias/F1Score.JPG?raw=true" alt="Image">
+</p> 
 
 Across all three tests, tweets by both Female and Male groups performed around the same. For True Positive Rates, the Male group outperformed the Female group only slightly, except in the case of tweets discussing the military. This, however, was not the case in other tests. The Female group slightly outperformed the Male group in precision for tweets discussing healthcare, immigration, and labor. None of the tests, nor any policy issues, showed an outstanding disparity between the two groups. Overall, I would safely say the model passes the three tests of algorithmic fairness.
 
 While my hypothesis was proven wrong and the experiment failed to show an example of biased outcomes, this can serve as an example of how to test your our suspicion of algorithmic discrimination. Scholars, tech companies, and lobby groups are calling on researchers to practice algorithmic hygiene. In practice, this can mean acknowledging potential causes of bias and employing practices to identify them. 
 
 Other Resources: 
+Featured Image from https://www.vox.com/recode/2020/2/18/21121286/algorithms-bias-discrimination-facial-recognition-transparency  
 https://www.emerald.com/insight/content/doi/10.1108/JICES-06-2018-0056/full/html
 https://www.vox.com/recode/2020/2/18/21121286/algorithms-bias-discrimination-facial-recognition-transparency
 https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf
