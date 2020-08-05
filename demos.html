@@ -3,18 +3,30 @@ layout: default
 title: Demos
 permalink: /demos/
 ---
-
-<div class="posts">
-  {% for post in site.posts %}
-    {% if post.category=="demo" %}
-    <article class="post">
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <h3><i>{{post.author.name}}, {{ post.date | date: '%B %d, %Y' }} </i></h3>
-      {{ post.tagline }} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"> See demo...</a>
-    </article>
-    <br>
-    <hr>
-    <br>
-    {% endif %}
-  {% endfor %}
-</div>
+<!doctype html>
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  
+  <body>
+    <div class="posts">
+      {% for post in site.posts %}
+        {% if post.category=="demo" %}
+        <article class="post">
+          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+          <h3><i>{{post.author.name}}, {{ post.date | date: '%B %d, %Y' }} </i></h3>
+          {{ post.tagline }} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"> See demo...</a>
+        </article>
+        <br>
+        <hr>
+        <br>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </body>
+  
+</html>
