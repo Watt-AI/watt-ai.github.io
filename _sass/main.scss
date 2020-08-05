@@ -1,3 +1,13 @@
+@import "variables";
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: $gray; /* old IE */
+    background-color: $gray; /* Modern Browsers */
+}
+
 .title-column {
   float: left;
   width: 45%;
@@ -29,3 +39,4 @@
   display: table;
   clear: both;
 }
+
