@@ -110,6 +110,12 @@ img {
   max-width: 100%;
 }
 
+hr {
+    /* Set the hr color */
+    color: $gray; /* old IE */
+    background-color: $gray; /* Modern Browsers */
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
