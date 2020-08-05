@@ -8,17 +8,13 @@ permalink: /demos/
   {% for post in site.posts %}
     {% if post.category=="demo" %}
     <article class="post">
-
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.tagline }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">See demo...</a>
-      
-      <br>
+      <h3><i>{{post.author.name}}, {{ post.date | date: '%B %d, %Y' }} </i></h3>
+      {{ post.tagline }} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"> See demo...</a>
     </article>
+    <br>
+    <hr>
+    <br>
     {% endif %}
   {% endfor %}
 </div>
