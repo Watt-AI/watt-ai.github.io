@@ -32,7 +32,7 @@ google_analytics: "UA-172046169-1"
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: "https://watt-ai.github.io/"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -47,7 +47,7 @@ baseurl:
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
-version: v1.2.0
+version: v4.1.1
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
