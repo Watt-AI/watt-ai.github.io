@@ -29,7 +29,7 @@ and see what the AI comes up with! The results are usually amusing, sometimes am
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
+  <!--<div class="navbar-brand">
     <span class="icon is-large">
       <span class="fa-stack">
         <i class="fas fa-circle fa-stack-2x"></i>
@@ -37,7 +37,7 @@ and see what the AI comes up with! The results are usually amusing, sometimes am
       </span>
     </span>
     <div class="brand-text is-family-code is-uppercase has-text-weight-bold">GPT-2</div>
-  </div>
+  </div>-->
 
   <div id="navbarBasicExample" class="navbar-menu is-active">
     <!--<div class="navbar-start">
@@ -48,37 +48,24 @@ and see what the AI comes up with! The results are usually amusing, sometimes am
       </div>
 
     </div> -->
-
-    <div class="navbar-end"> 
-      <div class="navbar-item is-hidden-touch">
-        <div class="buttons">
-          <a class="button is-light" href="https://github.com/minimaxir/gpt-2-cloud-run" target="_blank">
-            <span class="icon">
-              <i class="fab fa-lg fa-github"></i>
-            </span>
-            <span>GitHub</span>
-          </a>
-        </div>
-      </div>
-    </div>
   </div>
 </nav>
 
 <body>
+  <hr>
   <section id="main" class="section">
     <div class="container">
       <div class="columns is-variable is-5">
         <div class="column is-narrow" style="width: 250px;">
           <form id="gen-form">
-
             <div class="field">
               <label class="label">Training Text Source</label>
               <div class="control">
-                <select id = "model_sel" name = "model_sub" size = "1" class = "input">
+                <select id = "model_sel" name = "model_sub" size = "1" class = "input" style="-webkit-appearance: menulist;">
                   <!-- FILLED IN BY AJAX CALL WHEN DOCUMENT READY -->
                 </select>
               </div>
-              <p class="help">Choose from the models above, finetuned on different text corpuses <em> (Click field to see options)</em></p>
+              <p class="help">Choose from the models above, finetuned on different text corpuses</p>
             </div>
 
             <div class="field">
@@ -146,7 +133,7 @@ and see what the AI comes up with! The results are usually amusing, sometimes am
 
   </section>
 
-  <footer class="footer">
+  <footer class="footer" style="padding:10px;">
     <div class="content has-text-centered">
       <p>
         Made using <a href="https://github.com/minimaxir/gpt-2-simple" target="_blank"><strong>gpt-2-simple</strong></a>
