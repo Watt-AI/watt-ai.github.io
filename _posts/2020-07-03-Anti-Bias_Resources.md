@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 author:
   name: Dr. Carl Ehrett
   email: "cehrett@clemson.edu"
-image: 2020-07-03-Anti-Bias_Resources/pro_publica_compas.jpg
+image: assets/img/2020-07-03-Anti-Bias_Resources/pro_publica_compas.jpg
 ---
 
 
