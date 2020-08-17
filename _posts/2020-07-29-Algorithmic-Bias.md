@@ -7,7 +7,7 @@ permalink: /blog/Testing_for_Algorithmic_Bias
 author: 
   name: Cierra Oliveira
   email: "colivei@clemson.edu"
-image: 2020-07-29-Algorithmic-Bias/algorithmic_bias.jpg
+image: assets/img/2020-07-29-Algorithmic-Bias/algorithmic_bias.jpg
 ---
 
 It is a misconception that machine learning yields completely objective decision making. Rather, artificial intelligence only operates objectively on the material humans teach it. Troubling outcomes begin to arise when the input data used to train these models contain bias. 

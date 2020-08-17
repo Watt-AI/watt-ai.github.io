@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 author:
   name: Dillon Ranwala
   email: "dranwal@clemson.edu"
-image: 2020-07-23-Evolution_Music_AI/robot_piano.png
+image: assets/img/2020-07-23-Evolution_Music_AI/robot_piano.png
 ---
 
 Emergent technologies have shaped the world of music since its

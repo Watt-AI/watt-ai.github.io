@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 author:
   name: Nicholas Deas
   email: "ndeas@clemson.edu"
-image: 2020-07-10-Natural_Lang_Gen/GPT-2.png
+image: assets/img/2020-07-10-Natural_Lang_Gen/GPT-2.png
 ---
 
 
