@@ -7,7 +7,7 @@ permalink: assets/img/blogs/CausalInference
 author:
   name: Sean Ryder
   email: "smryder@clemson.edu"
-image: assets/img/2020-12-11-CausalInfererence/causal.jpg
+image: assets/img/2020-12-11-CausalInfererence/causal.png
 ---
 
 The ability to anticipate the effect that a variable has on an outcome is a skill that is universally useful. Whether the problem is in business, politics, health, or everyday life, being able to estimate the effect of an input on conditional outcomes can lead to more efficient investment of resources. Modern advancements in big data collection and machine learning methods have made it possible to do just this. Recent machine learning methods for causal inference have recently arisen that have shown potential in real-world application. Many of these methods are built upon time-tested econometric models that can now be streamlined and iterated with machine learning. In this post, I describe two of the leading machine learning techniques for causal inference and their real-world applications.
@@ -24,7 +24,7 @@ Although RCT’s have been useful in the past, conducting one may be impossible 
 
 Employing instrumental variables is useful when controlled experiments are expensive or unobtainable for other reasons. Instrumental variables are variables that are independent from outcomes but have a causal relationship with another endogenous variable in the model. Endogenous variables would not be useful for modeling causal relationships as they are associated with both outcomes and the error term. An example of these variables given by the authors of the Deep IV package, that I will explain more later in this section, are the variables fuel costs and ticket price in relation to airline ticket sales. In this case, fuel costs would be the instrument as it is assumed to have a causal effect on ticket prices but not ticket sales. Ticket price, on the other hand, is an endogenous variable that has an effect on sales, which without modeling is an unquantified causal effect. The figure below illustrates how instrumental variables are related to the models they are concerned with. A more in-depth definition of an instrumental variable can be found [here](http://cameron.econ.ucdavis.edu/e240a/ch04iv.pdf).
 
-![enter image description here]<p align="center">  
+<p align="center">  
 <img width="658" height="297" src="{{site.url}}/assets/img/2020-12-11-CausalInference/causal.png?raw=true" alt="Image">
 </p>
 *x* = observable features, *p* = treatment variable, *z* = instruments, *e* = latent effects/error, *y* = outcome (Hartford et al.)
@@ -37,23 +37,27 @@ Applications for the Deep IV package exist mostly on a microeconomic scale. Mode
 
 Random forest is a machine learning method that has been around for quite some time and has seen success in many real-world applications. The primary function of random forests has been solely on estimating expected outcomes. Generalized random forest (GRF) is a related method more recently developed that goes beyond the functionality of traditional random forests as a means to model “…non-parametric quantile regression, conditional average partial effect estimation, and heterogeneous treatment effect estimation via instrumental variables” (Athey et al. 2018). Measurement of split quality is one factor that differentiates GRF from traditional random forests. Split quality is determined by the best variables on which to split a node into within a decision tree. While the split quality being measured is dependent upon the type of modeling being done, the overall quality is based on the heterogeneity of child node. This means that GRF maximizes the difference in treatment effect among two child nodes when performing a split. Another process that defines GRF training is weighting of similar leaves in the forest. Susan Athey explained in a presentation at the 2018 Conference on Neural Information Processing Systems that in GRF, neighborhood functions are generated to locally analyze the treatment effect on a variable with other covariates in the “neighborhood,” or closer in the forest, weighted more heavily than those that are farther from the variable in question. GRF also incorporates a feature called “honest estimation” that divides the training data into two subsets: one that partitions the forest and one that assigns weights to the leaves. The GRF package for R can be found on GitHub [here](https://grf-labs.github.io/grf/). Seen below are diagrams of the forest weighting function (and the description given by Athey et al. 2018) and an example of a resulting dendrogram.
 
-![enter image description here]<p align="center">  
+<p align="center">  
 <img width="610" height="477" src="{{site.url}}/assets/img/2020-12-11-CausalInference/weighting.png?raw=true" alt="Image">
+</p>
 
-![enter image description here]<p align="center">  
+<p align="center">  
 <img width="468" height="272" src="{{site.url}}/assets/img/2020-12-11-CausalInference/dendrogram.png?raw=true" alt="Image">
+</p>
 
 Included in the GRF package is a function titled “causal forest.” This function is used to estimate the heterogeneous treatment effect of a binary variable on outcomes. The function starts by using the framework defined in the broader GRF package that was previously described. Causal forest then utilizes two measures during modeling to insure a more accurate estimation of the treatment effect. The first measure, orthogonalization, is used to limit the trivial effect of propensity scores that may lead to useless splits in the forest. A propensity score is the probability that a subject receives treatment based on its observed characteristics. Further information on propensity scores and how they are used can be found [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144483/). Orthogonalization first estimates propensity scores and marginal outcomes by training separate forests and obtaining an out-of-bag estimate. These estimates are then used to compute the residual treatment and outcome. The final forest is then trained on these residuals. The second measure taken by causal forest deals with balancing the size of child nodes as well as the number of control and treated examples. This is done by defining a minimum node size within the function as well as an imbalance penalty for nodes that contain too many of either control or treated examples.
 
 The creators of this method utilized causal forest on a simulated dataset from the National Study of Learning Mindsets to find the effect of some binary treatment variable W on learning-achievement outcomes. The treatment variable is described as “...a nudge-like intervention designed to instill students with a growth mindset on student achievement” (Athey et al. 2019). A number of other variables were included in the model, a list of which can be seen below:
 
-![enter image description here]<p align="center">  
+<p align="center">  
 <img width="468" height="306" src="{{site.url}}/assets/img/2020-12-11-CausalInference/variables.png?raw=true" alt="Image">
+</p>
 
 The final forest that was used to model the data was trained in two stages: the first was trained on all of the variables listed and the second was trained on only those variables that saw a substantial number of splits in the first stage. Using the average treatment effect function included in GRF, it was found that treatment had a large positive effect on outcomes. While there was no strong heterogeneity present when all variables were taken into account, when limited to X1 and X2 heterogeneity could be found in X1. X1 was one of the most important variables in the set and accounted for around 24% of splits in the forest. Below can be seen the algorithm that was used to predict the treatment effect:
 
-![enter image description here]<p align="center">  
+<p align="center">  
 <img width="468" height="306" src="{{site.url}}/assets/img/2020-12-11-CausalInference/forests.png?raw=true" alt="Image">
+</p>
 
 # **Further Applications**
 
