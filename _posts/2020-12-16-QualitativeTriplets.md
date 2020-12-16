@@ -7,7 +7,7 @@ permalink: assets/img/blogs/QualitativeTriplets
 author:
   name: Quinn Hubbarth
   email: "qhubbar@clemson.edu"
-image: assets/img/2020-03-06-QualitativeTriplets/Image.jpg
+image: assets/img/2020-12-16-QualitativeTriplets/Image.jpg
 ---
 
 Qualitative analysis is a useful method to find themes in many different forms of data, and traditional methods of research can be significantly improved with machine learning. Qualitative research with machine learning is a difficult challenge, and a large problem associated with qualitative research is labeling data. Because qualitative data is hard to generate on a large scale, it often requires a lot of effort from researchers to label the data for analysis. 
