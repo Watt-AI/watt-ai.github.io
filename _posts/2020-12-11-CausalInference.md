@@ -7,7 +7,7 @@ permalink: assets/img/blogs/CausalInference
 author:
   name: Sean Ryder
   email: "smryder@clemson.edu"
-image: assets/img/2020-12-11-CausalInfererence/causal.png
+image: assets/img/2020-12-11-CausalInference/causal.png
 ---
 
 The ability to anticipate the effect that a variable has on an outcome is a skill that is universally useful. Whether the problem is in business, politics, health, or everyday life, being able to estimate the effect of an input on conditional outcomes can lead to more efficient investment of resources. Modern advancements in big data collection and machine learning methods have made it possible to do just this. Recent machine learning methods for causal inference have recently arisen that have shown potential in real-world application. Many of these methods are built upon time-tested econometric models that can now be streamlined and iterated with machine learning. In this post, I describe two of the leading machine learning techniques for causal inference and their real-world applications.
