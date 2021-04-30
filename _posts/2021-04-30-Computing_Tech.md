@@ -3,7 +3,7 @@ layout: post
 category: blog
 title: Emerging Computing Techniques with Artificial Intelligence
 tagline: This post details new computing styles (High Performance, Neuromorphic, and Quantum Computing) and discusses their relevance to AI.
-permalink: /blog/music_ai_evolution
+permalink: /blog/computing_tech
 excerpt_separator: <!--more-->
 author:
   name: Dillon Ranwala
