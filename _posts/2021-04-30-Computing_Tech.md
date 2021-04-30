@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 author:
   name: Dillon Ranwala
   email: "dranwal@clemson.edu"
-image: assets/img/2021-04-30-Computing_Tech/title_image.png
+image: assets/img/2021-04-30-Computing_Tech/title_image.jpg
 ---
 
 The proliferation of artificial intelligence (AI) technologies in recent
@@ -349,6 +349,7 @@ utilizes D-Wave next generation quantum systems for a variety of machine
 learning and optimization problems.
 <p align="center">  
 <img height = "300" width = "350" src="{{site.url}}/assets/img/2021-04-30-Computing_Tech/dwave.jpg?raw=true" alt="Image">
+ </p>
 <p align="center"> 
 <i>One of D-Wave's 1000 qubit processors. Image by D-Wave Systems</i>
 </p>
@@ -406,6 +407,7 @@ Hybrid systems
 
 <p align="center">  
 <img src="{{site.url}}/assets/img/2021-04-30-Computing_Tech/hybrid.jpg?raw=true" alt="Image">
+</p>
 <p align="center"> 
 <i>An example ultra-hybrid deep learning system. Image by Oak Ridge
 National Lab.</i>
