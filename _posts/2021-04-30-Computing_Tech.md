@@ -91,7 +91,7 @@ speeds outlined by Moore’s Law. These constraints have led to
 developments in new computing styles that can incorporate AI systems
 more efficiently, the most accessible being High Performance Computing.
 
-High performance computing (HPC)
+High Performance Computing (HPC)
 --------------------------------
 
 One of the more concrete developments in recent decades that have
@@ -403,7 +403,7 @@ the accessibility to quantum computers and knowledge of the power of
 qubits grow, but we currently lack any fully quantum applications to
 test the depth of this technology.
 
-Hybrid systems
+Hybrid Systems
 --------------
 
 <p align="center">  
