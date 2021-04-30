@@ -375,6 +375,7 @@ Their trial </a> of nine buses which followed these ‘Quantum Routing’
 paths were successfully able to avoid traffic jams.
 <p align="center">  
 <img height = "400" width = "700" src="{{site.url}}/assets/img/2021-04-30-Computing_Tech/volkswagon.jpg?raw=true" alt="Image">
+</p>
 <p align="center"> 
 <i>One of the routes showing traffic jams and bus locations. Image by
 Volkswagen Group.</i>
