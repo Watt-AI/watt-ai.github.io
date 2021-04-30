@@ -1,3 +1,16 @@
+---
+layout: post
+category: blog
+title: Emerging Computing Techniques with Artificial Intelligence
+tagline: This post details new computing styles (High Performance, Neuromorphic, and Quantum Computing) and discusses their relevance to AI.
+permalink: /blog/music_ai_evolution
+excerpt_separator: <!--more-->
+author:
+  name: Dillon Ranwala
+  email: "dranwal@clemson.edu"
+image: assets/img/2021-04-30-Computing_Tech/title_image.png
+---
+
 The proliferation of artificial intelligence (AI) technologies in recent
 decades has been pushing the limits of our computing architectures. AI
 technologies have expanded rapidly into research and business domains
