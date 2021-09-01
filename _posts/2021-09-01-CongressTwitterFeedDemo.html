@@ -1,0 +1,32 @@
+---
+layout: demo
+title: Congress Twitter Feed
+category: demo
+permalink: /demos/congress-twitter
+tagline: View a feed of Tweets from congress members.
+author:
+  name: Nicholas Deas
+  email: "ndeas@clemson.edu"
+---
+
+The linked site shows a feed of Tweets from Congress members, as used in the Political Tweets Project.  Tweets such as these were used create and train attack classifiers and issue classifiers to better understand why messages spread on Twitter.
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Up-to-date Feed of Congress Members' Tweets</title>
+  <meta name="title" content="Up-to-date Feed of Congress Members' Tweets" />
+  <meta name="description" content="View and search through Congress Member Tweets" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+  <hr>
+  <h2 style = 'text-align: center; font-size: 30px; font-weight: bold;'> Click <a href = 'https://watt-polisci-tweets.appspot.com/'> here </a> to view the Twitter Feed </h2>
+  <p> The site was created using the Django backend framework and is hosted on Google Cloud Platform.  The Django backend connects to an IBM databases which constantly retrieves new tweets from Congress members using the Twitter Education API. </p>
+
+</body>
